@@ -14,12 +14,12 @@
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.7); }
   @media screen and (max-width: 992px) {
     body {
-      font-size: 16px; } }
+      font-size: 20px; } }
 
 a {
   color: #2c98f0;
@@ -74,7 +74,7 @@ figure {
 
 #colorlib-aside {
   padding-top: 3em;
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
   float: left;
   width: 300px;
   position: fixed;
@@ -105,12 +105,12 @@ figure {
   #colorlib-aside .position {
     display: block;
     margin-bottom: 2em;
-    font-size: 12px;
+    font-size: 14px;
     text-transform: uppercase; }
   #colorlib-aside #colorlib-logo {
     text-align: right;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 30px;
     margin-bottom: .5em;
     display: block;
     width: 100%; }
@@ -135,7 +135,7 @@ figure {
         margin: 0 0 10px 0;
         padding: 0;
         list-style: none;
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 500;
         text-transform: uppercase;
         letter-spacing: 1px; }
@@ -323,7 +323,7 @@ figure {
           color: #fff; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner p {
           margin-bottom: 0; }
-        #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
+       .btn {
           font-size: 12px;
           text-transform: uppercase;
           letter-spacing: 2px;
@@ -331,15 +331,15 @@ figure {
           padding: 10px 15px !important;
           border: none;
           font-weight: 400; }
-          #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
+         .btn.btn-learn {
             color: #000;
             border: 1px solid white;
             background: transparent !important; }
-            #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
+          .btn.btn-learn:hover {
               background: transparent !important;
-              border: 1px solid #000 !important; }
+              border: 1px solid white !important; }
           @media screen and (max-width: 768px) {
-            #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
+            .btn {
               width: 100%; } }
 
 body.offcanvas {
@@ -404,8 +404,8 @@ body.offcanvas {
   position: relative; }
 
 .colorlib-heading {
-  font-size: 18px;
-  margin-bottom: 4em;
+  font-size: 30px;
+  margin-bottom: 2em;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -420,7 +420,7 @@ body.offcanvas {
 .heading-meta {
   margin-bottom: 15px;
   display: block;
-  font-size: 10px;
+  font-size: 14px;
   text-transform: uppercase;
   color: #999999;
   font-weight: 500;
@@ -655,7 +655,7 @@ body.offcanvas {
   z-index: 0; }
   @media screen and (max-width: 768px) {
     .services {
-      margin-bottom: 4em; } }
+      margin-bottom: 2em; } }
   .services .icon {
     position: absolute;
     top: -20px;
@@ -837,7 +837,7 @@ body.offcanvas {
         .colorlib-feature .colorlib-icon i {
           font-size: 40px; } }
   .colorlib-feature .colorlib-text {
-    padding-left: 120px;
+    padding-left: 110px;
     width: 100%; }
     .colorlib-feature .colorlib-text h2, .colorlib-feature .colorlib-text h3 {
       margin: 0;
